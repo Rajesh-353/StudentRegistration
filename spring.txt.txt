@@ -1,1 +1,2 @@
 spring is a framework
+spring is lite weigth

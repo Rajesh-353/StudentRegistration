@@ -28,6 +28,12 @@ public class RegistrationController {
 	@Autowired
 	private StudentRepoInterface srepo;
 
+	 @GetMapping("/timingDetails") public String getTimings(Model model) {
+	 * List<TimingsEntity> tlist = trepo.findAll(); model.addAttribute("time",
+	 * tlist); return "index";
+	 * 
+	 * }
+
 	/*
 	 * @GetMapping("/courseDetails") public String getCourse(Model model) {
 	 * List<CourseEntity> clist = crepo.findAll(); model.addAttribute("course",
